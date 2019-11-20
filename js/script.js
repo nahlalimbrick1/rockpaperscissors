@@ -3,8 +3,12 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
-/* global $ */
-
+/* global $ */ 
+$("#shoot").click(function(){
+  var input=$("#input").val();
+  var ComputerChoice= $(".ComputerChoice").val();
+ 
+    $("#userChoice").text(input)
 
 
 // DOCUMENT READY FUNCTION BELOW
